@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+    background-color: #BFC8E6;
+}
+
+.container{
+  background-color: #FFFFFF;
+}
+.search-box {
+    padding: 10px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    input{
+      font-size: 16px;
+      font-weight: 500;
+      font-family: Poppins;
+      border: none;
+  }
+}
+.header-nav ul{
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.header-nav li {
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  color:#151B32;
+}
+.active {
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  background-color: #849FFF;
+  border: none;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.person {
+  background-color: #FBFCFF;
+  display: flex;
+  gap: 16px;
+  padding-top: 24px;
+  padding-left: 24px;
+  border-radius: 16px;
+}
+
+.person.active {
+  background-color: #FBFCFF;
+  display: flex;
+  gap: 16px;
+  padding-top: 24px;
+  padding-left: 24px;
+  border-radius: 16px;
+  border: 1px solid #BFC8E5;
+  box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7); 
+}
+
+.avatar {
+  width: 97px;
+  height: 97px;
+}
+
+.person-info h2 {
+  font-family: Merriweather;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.person-info p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  color:#151B32;
+  margin-bottom: 20px;
+  line-height: 21px;
+  
+}
+
+.person-info-details {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 150px;
+  gap: 4px;
+}
+
+.item {
+  border: 1px solid #BFC8E6;
+  border-radius: 30px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: #516FD4;
+
+}
